@@ -1,0 +1,16 @@
+Макет
+
+http://psd-html-css.ru/templates/waxom-besplatnyy-psd-shablon-lendingovoy-stranicy
+
+маски css
+https://codepen.io/lipa88/pen/VwaBMaz
+
+JS: Настройка окружения
+https://ru.hexlet.io/courses/js-setup-environment
+
+Основы командной строки
+https://ru.hexlet.io/courses/cli-basics
+
+Введение в Git
+https://ru.hexlet.io/courses/intro_to_git
+

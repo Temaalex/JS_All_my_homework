@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+  background-color:#F1F5F7;
+}
+.servBlock{
+  display: flex;
+  padding-top: 64px;
+}
+.serv{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 80px;
+}
+
+.text{
+  padding-top: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  margin-left: 80px;
+}
+.tabs{
+  width: 240px;
+  height: 180px;
+  padding-top: 70px;
+  margin-left: 80px;
+
+}
+.false{
+  width: 130px;
+  height: 400px;
+  background-color: green;
+}
+.false1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title_delivry{
+  padding: 17px 0 0 22px;
+  height: 43px;
+  background-color: #FFFFFF;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+  cursor: pointer;
+}
+.text_delivry{
+  background-color: #FFFFFF;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+}
+.title_warranty{
+  padding: 17px 0 0 22px;
+  height: 43px;
+  background-color: #32425C;
+  box-shadow: -100px 90px 28px -100px #000000 inset;
+  cursor: pointer;
+}
+.text_warranty{
+  background-color: #32425C;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+}
+.title_credit{
+  padding: 17px 0 0 22px;
+  height: 43px;
+  background-color: #32425C;
+  box-shadow: -100px 90px 28px -100px #000000 inset;
+  cursor: pointer;
+}
+.text_credit{
+  background-color: #32425C;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+}
+.title_white{
+  background-color: #FFFFFF;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+}
+.text_white{
+  background-color: #FFFFFF;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+}
+.title_black{
+  background-color: #32425C;
+  box-shadow: -100px 90px 28px -100px #000000 inset;
+}
+.text_black{
+  background-color: #32425C;
+  box-shadow: -100px 0px 28px -100px #000000 inset;
+}
+.content{
+  margin-top: 67px;
+  margin-left: 80px;
+}
+.title_one{
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+text-transform: uppercase;
+color: #32425C;
+padding-bottom: 30px;
+}
+
+.title_text{
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #000000;
+}
+
+.car {
+  margin-top: 90px;
+  margin-left: 80px;
+}

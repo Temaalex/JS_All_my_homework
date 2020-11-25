@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+  height: 50px;
+  display: flex;
+  background-color: aqua;
+}
+.chackbox{
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.radio{
+  margin-top: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.chackboxOpen{
+  margin-top: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.wrapper{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.we{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.services{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.portfolio{
+  text: none;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.contact{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.textwe_close{
+  display: none;
+}
+.textwe{
+  display: flex;
+}
+
+.textservices_close{
+  display: none;
+}
+.textservices{
+  display: flex;
+}
+
+.textportfolio_close{
+  display: none;
+}
+.textportfolio{
+  display: flex;
+}
+.textcontact_close{
+  display: none;
+}
+.textcontact{
+  display: flex;
+}
+

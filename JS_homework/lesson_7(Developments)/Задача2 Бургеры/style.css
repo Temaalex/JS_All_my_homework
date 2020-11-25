@@ -1,0 +1,11 @@
+.header_nav_open{
+	margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.header_nav_close{
+  display: none;
+}

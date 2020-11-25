@@ -1,0 +1,47 @@
+.wrapper{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.we{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.services{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.portfolio{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.contact{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.textwe{
+    display: none;
+}
+.textwe_open{
+    display: flex;
+}
+.textservices{
+    display: none;
+}
+.textservices_open{
+    display: flex;
+}
+.textportfolio{
+    display: none;
+}
+.textportfolio_open{
+    display: flex;
+}
+.textcontact{
+    display: none;
+}
+.textcontact_open{
+    display: flex;
+}

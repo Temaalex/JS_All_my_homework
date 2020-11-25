@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Задачи</title>
+   <style>
+      .block {
+         width: 70px;
+         height: 70px;
+         display: inline-block;
+         border:1px solid green;
+      }
+   </style>
+</head>
+<body>
+   Задача: пользователь вводит строку c цветом вроде “red”. Нужно найти цвета в
+   этой строке и создать на странице блоки этих цвета. Прекратить создавать блоки когда пользовательль нажал отмену.
+   <script>
+      'use strict'
+      do {
+      var color = prompt("Ввести цвет:", "red");
+      let newDiv = document.createElement("div");
+
+      newDiv.classList.add("block");
+      newDiv.style.backgroundColor = color;
+      document.body.append(newDiv);
+      console.log(color);
+      } while (color !== "");
+   </script>
+</body>
+</html>

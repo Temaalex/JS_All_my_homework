@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >События</title>
+  <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+  <h1> Проверка пароля </h1>
+  <p> 
+    Создай форму регистрации пользователя с возможностью посмотреть пароль при <br>
+    выборе соответствующего чекбокса и проверкой длины пароля:<br>
+    до 5 символов - слабый пароль<br>
+    от 5 до 8 символов - нормальный пароль<br>
+    более 8 символов - хороший пароль
+  </p>
+  Логин:  <input class="login" type="text" placeholder="Логин">
+  <br>
+  Пароль:<input class="password" type="password" placeholder="Пароль" value="">
+  <br>
+  <input id="checkbox" type="checkbox"> Показать пароль.
+  <div class="wrap">
+    <div class="easy"></div>
+    <div class="normal"></div>
+    <div class="hard"></div>
+  </div>
+  <button>Кнопка</button>
+  <script src="script8.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.modal{
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.274);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-close{
+  display: none;
+}
+
+.modal-open{
+  display: flex;
+}
+
+.modal-content {
+  background-color: white;
+  width: 600px;
+  border-radius: 10xp;
+  padding: 30px;
+}

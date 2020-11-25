@@ -1,0 +1,47 @@
+* {
+  margin: 0; padding: 0;
+  box-sizing: boeder-box;
+}
+.gallery-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  width: 35%;
+  overflow: hidden;
+  margin-bottom: 0px;
+  border: 1px solid #fff;
+  /* относительный контейнер для текста */
+    position: relative;
+  /* плавность */
+    transition: 0.3s;
+}
+.gallery-img {
+  width: 100%; 
+  margin-bottom: -4px;
+   /* плавность */
+/*   transition: 0.3s; */
+
+}
+
+.gallery-text span {
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+/* при наведении */
+.gallery-item:hover .gallery-text {
+   opacity: 1;
+}
+.gallery-item:hover .gallery-img {
+  transform: scale(1.2);
+} 
+.hidden {
+    display: none;
+  }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >События</title>
+  <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+
+  <form action="#" class="login-form">
+    <input class="login-field" type="text" placeholder="Логин" value="">
+    <div class="user-text"></div>
+    
+    Грязная зарплата:
+    <input class="salary-field"  type="number" min='0', max='200000' value="0">
+    <p>Чистая ЗП:<span class="salary"></span></p>
+    <!--<input type="submit">-->
+
+    <br>
+    <input class="ageement-field" type="checkbox" checked>Я даю соглание на ...
+    <br>
+    <br>
+    <input class="submit-button" type="submit">
+    
+  </form>
+
+
+<!--Задача 2-->
+<form class="project-price" action="#">
+  Введите время проекта в часах:
+  <input class="project-time" type="number">
+<br>
+  <input class="project-urgensy" type="checkbox"> Срочный ли проект?
+  <p class="project-result">
+    Итоговая цена проекта:
+    <span class="project-result-value">0</span>
+  </p>
+
+</form>
+
+<select name="news-list" id="news-list">
+  <option value="new">news</option>
+  <option value="game">game</option>
+  <option value="it">it</option>
+  <option value="cats">cats</option>
+  <option value="all" selected>All news</option>
+</select>
+<ul class="news">
+  <li class="news-item" data-category="news">
+    Text news
+  </li>
+  <li class="news-item"data-category="game">
+    Text game
+  </li>
+  <li class="news-item"data-category="news">
+    Text news
+  </li>
+  <li class="news-item"data-category="cats">
+    Text cats
+  </li>
+  <li class="news-item"data-category="it">
+    Text it
+  </li>
+  <li class="news-item"data-category="news">
+    Text news
+  </li>
+  <li class="news-item"data-category="news">
+    Text it
+  </li>
+  <li class="news-item"data-category="it">
+    Text it
+  </li>
+  <li class="news-item"data-category="game">
+    Text game
+  </li>
+  <li class="news-item"data-category="cats">
+    Text cats
+  </li>
+</ul>
+
+
+Задача 3
+<ul class="todo-list">
+  <li class="todo-item">Exersice 1;</li>
+</ul>
+
+<form action="#" class="todo-form">
+  <input type="text" class="todo-field">
+  <input type="submit" class="todo-btn" value="Go!">
+</form>
+
+
+<template id="todo">
+  <li class="todo-item"></li>
+</template>
+
+  <script src="script7.js"></script>
+</body>
+</html>
+

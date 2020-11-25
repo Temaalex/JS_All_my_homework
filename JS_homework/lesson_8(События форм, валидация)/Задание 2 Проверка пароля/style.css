@@ -1,0 +1,22 @@
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  height: 10px;
+  width: 450px;
+  border : 1px solid black;
+}
+.easy{
+ width: 200px;
+ height: 10px;
+ background-color: white;
+}
+.normal{
+  width: 150px;
+  height: 10px;
+  background-color: white;
+}
+.hard{
+  width: 100px;
+  height: 10px;
+  background-color: white;
+}

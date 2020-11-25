@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >События</title>
+  <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+  <h1>Еще сортировка</h1><br>
+  <p>
+    Сделай сортировку фотогалереи размером 3*4 по 5ти параметрам: тематика 1,<br>
+    тематика 2, тематика 3, тематика 4 и все фото
+  </p>
+  <select name="news-list" id="news-list">
+    <option value="cat">cat</option>
+    <option value="dog">dog</option>
+    <option value="mouse">mouse</option>
+    <option value="all" selected>All news</option>
+  </select>
+  <section class="gallery">
+     <div class="gallery-wrapper">
+      <figure  class="gallery-item">
+        <img  class="gallery-img" src="img/cat1.jpg" alt="" data-category="cat">
+      </figure>
+      <figure  class="gallery-item">
+        <img  class="gallery-img" src="img/cat2.jpg" alt="" data-category="cat">
+      </figure>     
+       <figure  class="gallery-item">
+        <img  class="gallery-img" src="img/dog1.jpg" alt="" data-category="dog">
+      </figure>
+      <figure  class="gallery-item">
+        <img  class="gallery-img" src="img/dog2.jpg" alt="" data-category="dog">
+      </figure>
+      <figure  class="gallery-item">
+        <img  class="gallery-img" src="img/mouse1.jpg" alt="" data-category="mouse">
+      </figure>
+      <figure  class="gallery-item">
+        <img  class="gallery-img" src="img/mouse2.jpg" alt="" data-category="mouse">
+      </figure>
+    </div>
+  </section>
+  <script src="script8.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.news {
+  list-style: none;
+  padding: 0;
+}
+.news-item{
+  padding: 10px;
+  border:1px solid black;
+  margin-bottom: 10px;
+}
+.hidden {
+  display: none;
+}
+
+.todo-list{
+  list-style: none;
+  padding: 0;
+}
+.todo-item{
+  border-bottom:2px solid blue;
+  border-left:2px solid blue;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
